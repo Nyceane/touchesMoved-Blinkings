@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8441ADE13EA634700A682EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8441ADD13EA634700A682EA /* UIKit.framework */; };
+		C8441AE013EA634700A682EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8441ADF13EA634700A682EA /* Foundation.framework */; };
+		C8441AE213EA634700A682EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8441AE113EA634700A682EA /* CoreGraphics.framework */; };
+		C8441AE813EA634700A682EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8441AE613EA634700A682EA /* InfoPlist.strings */; };
+		C8441AEA13EA634700A682EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8441AE913EA634700A682EA /* main.m */; };
+		C8441AEE13EA634800A682EA /* BlinksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8441AED13EA634800A682EA /* BlinksAppDelegate.m */; };
+		C8441AF113EA634800A682EA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8441AEF13EA634800A682EA /* MainStoryboard.storyboard */; };
+		C8441AF413EA634800A682EA /* BlinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8441AF313EA634800A682EA /* BlinksViewController.m */; };
+		C8441AFC13EA634800A682EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8441AFB13EA634800A682EA /* SenTestingKit.framework */; };
+		C8441AFD13EA634800A682EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8441ADD13EA634700A682EA /* UIKit.framework */; };
+		C8441AFE13EA634800A682EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8441ADF13EA634700A682EA /* Foundation.framework */; };
+		C8441AFF13EA634800A682EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8441AE113EA634700A682EA /* CoreGraphics.framework */; };
+		C8441B0713EA634800A682EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8441B0513EA634800A682EA /* InfoPlist.strings */; };
+		C8441B0A13EA634800A682EA /* BlinksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8441B0913EA634800A682EA /* BlinksTests.m */; };
+		C8441B1513EA63A800A682EA /* Slideshow.m in Sources */ = {isa = PBXBuildFile; fileRef = C8441B1413EA63A800A682EA /* Slideshow.m */; };
+		C8441B1813EA641D00A682EA /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8441B1613EA641D00A682EA /* test@2x.png */; };
+		C8441B1913EA641D00A682EA /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = C8441B1713EA641D00A682EA /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8441B0013EA634800A682EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8441AD013EA634700A682EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8441AD813EA634700A682EA;
+			remoteInfo = Blinks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8441AD913EA634700A682EA /* Blinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8441ADD13EA634700A682EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8441ADF13EA634700A682EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8441AE113EA634700A682EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8441AE513EA634700A682EA /* Blinks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Blinks-Info.plist"; sourceTree = "<group>"; };
+		C8441AE713EA634700A682EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8441AE913EA634700A682EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8441AEB13EA634700A682EA /* Blinks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blinks-Prefix.pch"; sourceTree = "<group>"; };
+		C8441AEC13EA634700A682EA /* BlinksAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlinksAppDelegate.h; sourceTree = "<group>"; };
+		C8441AED13EA634800A682EA /* BlinksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlinksAppDelegate.m; sourceTree = "<group>"; };
+		C8441AF013EA634800A682EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C8441AF213EA634800A682EA /* BlinksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlinksViewController.h; sourceTree = "<group>"; };
+		C8441AF313EA634800A682EA /* BlinksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlinksViewController.m; sourceTree = "<group>"; };
+		C8441AFA13EA634800A682EA /* BlinksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinksTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8441AFB13EA634800A682EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C8441B0413EA634800A682EA /* BlinksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlinksTests-Info.plist"; sourceTree = "<group>"; };
+		C8441B0613EA634800A682EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8441B0813EA634800A682EA /* BlinksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlinksTests.h; sourceTree = "<group>"; };
+		C8441B0913EA634800A682EA /* BlinksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlinksTests.m; sourceTree = "<group>"; };
+		C8441B1313EA63A800A682EA /* Slideshow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slideshow.h; sourceTree = "<group>"; };
+		C8441B1413EA63A800A682EA /* Slideshow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slideshow.m; sourceTree = "<group>"; };
+		C8441B1613EA641D00A682EA /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
+		C8441B1713EA641D00A682EA /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8441AD613EA634700A682EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8441ADE13EA634700A682EA /* UIKit.framework in Frameworks */,
+				C8441AE013EA634700A682EA /* Foundation.framework in Frameworks */,
+				C8441AE213EA634700A682EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8441AF613EA634800A682EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8441AFC13EA634800A682EA /* SenTestingKit.framework in Frameworks */,
+				C8441AFD13EA634800A682EA /* UIKit.framework in Frameworks */,
+				C8441AFE13EA634800A682EA /* Foundation.framework in Frameworks */,
+				C8441AFF13EA634800A682EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8441ACE13EA634700A682EA = {
+			isa = PBXGroup;
+			children = (
+				C8441AE313EA634700A682EA /* Blinks */,
+				C8441B0213EA634800A682EA /* BlinksTests */,
+				C8441ADC13EA634700A682EA /* Frameworks */,
+				C8441ADA13EA634700A682EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8441ADA13EA634700A682EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8441AD913EA634700A682EA /* Blinks.app */,
+				C8441AFA13EA634800A682EA /* BlinksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8441ADC13EA634700A682EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8441ADD13EA634700A682EA /* UIKit.framework */,
+				C8441ADF13EA634700A682EA /* Foundation.framework */,
+				C8441AE113EA634700A682EA /* CoreGraphics.framework */,
+				C8441AFB13EA634800A682EA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8441AE313EA634700A682EA /* Blinks */ = {
+			isa = PBXGroup;
+			children = (
+				C8441B1613EA641D00A682EA /* test@2x.png */,
+				C8441B1713EA641D00A682EA /* test.png */,
+				C8441B1313EA63A800A682EA /* Slideshow.h */,
+				C8441B1413EA63A800A682EA /* Slideshow.m */,
+				C8441AEC13EA634700A682EA /* BlinksAppDelegate.h */,
+				C8441AED13EA634800A682EA /* BlinksAppDelegate.m */,
+				C8441AEF13EA634800A682EA /* MainStoryboard.storyboard */,
+				C8441AF213EA634800A682EA /* BlinksViewController.h */,
+				C8441AF313EA634800A682EA /* BlinksViewController.m */,
+				C8441AE413EA634700A682EA /* Supporting Files */,
+			);
+			path = Blinks;
+			sourceTree = "<group>";
+		};
+		C8441AE413EA634700A682EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8441AE513EA634700A682EA /* Blinks-Info.plist */,
+				C8441AE613EA634700A682EA /* InfoPlist.strings */,
+				C8441AE913EA634700A682EA /* main.m */,
+				C8441AEB13EA634700A682EA /* Blinks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8441B0213EA634800A682EA /* BlinksTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8441B0813EA634800A682EA /* BlinksTests.h */,
+				C8441B0913EA634800A682EA /* BlinksTests.m */,
+				C8441B0313EA634800A682EA /* Supporting Files */,
+			);
+			path = BlinksTests;
+			sourceTree = "<group>";
+		};
+		C8441B0313EA634800A682EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8441B0413EA634800A682EA /* BlinksTests-Info.plist */,
+				C8441B0513EA634800A682EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8441AD813EA634700A682EA /* Blinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8441B0D13EA634800A682EA /* Build configuration list for PBXNativeTarget "Blinks" */;
+			buildPhases = (
+				C8441AD513EA634700A682EA /* Sources */,
+				C8441AD613EA634700A682EA /* Frameworks */,
+				C8441AD713EA634700A682EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blinks;
+			productName = Blinks;
+			productReference = C8441AD913EA634700A682EA /* Blinks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8441AF913EA634800A682EA /* BlinksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8441B1013EA634800A682EA /* Build configuration list for PBXNativeTarget "BlinksTests" */;
+			buildPhases = (
+				C8441AF513EA634800A682EA /* Sources */,
+				C8441AF613EA634800A682EA /* Frameworks */,
+				C8441AF713EA634800A682EA /* Resources */,
+				C8441AF813EA634800A682EA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8441B0113EA634800A682EA /* PBXTargetDependency */,
+			);
+			name = BlinksTests;
+			productName = BlinksTests;
+			productReference = C8441AFA13EA634800A682EA /* BlinksTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8441AD013EA634700A682EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Catch.com;
+			};
+			buildConfigurationList = C8441AD313EA634700A682EA /* Build configuration list for PBXProject "Blinks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8441ACE13EA634700A682EA;
+			productRefGroup = C8441ADA13EA634700A682EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8441AD813EA634700A682EA /* Blinks */,
+				C8441AF913EA634800A682EA /* BlinksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8441AD713EA634700A682EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8441AE813EA634700A682EA /* InfoPlist.strings in Resources */,
+				C8441AF113EA634800A682EA /* MainStoryboard.storyboard in Resources */,
+				C8441B1813EA641D00A682EA /* test@2x.png in Resources */,
+				C8441B1913EA641D00A682EA /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8441AF713EA634800A682EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8441B0713EA634800A682EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8441AF813EA634800A682EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8441AD513EA634700A682EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8441AEA13EA634700A682EA /* main.m in Sources */,
+				C8441AEE13EA634800A682EA /* BlinksAppDelegate.m in Sources */,
+				C8441AF413EA634800A682EA /* BlinksViewController.m in Sources */,
+				C8441B1513EA63A800A682EA /* Slideshow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8441AF513EA634800A682EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8441B0A13EA634800A682EA /* BlinksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8441B0113EA634800A682EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8441AD813EA634700A682EA /* Blinks */;
+			targetProxy = C8441B0013EA634800A682EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8441AE613EA634700A682EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8441AE713EA634700A682EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8441AEF13EA634800A682EA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8441AF013EA634800A682EA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C8441B0513EA634800A682EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8441B0613EA634800A682EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8441B0B13EA634800A682EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8441B0C13EA634800A682EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8441B0E13EA634800A682EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blinks/Blinks-Prefix.pch";
+				INFOPLIST_FILE = "Blinks/Blinks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8441B0F13EA634800A682EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blinks/Blinks-Prefix.pch";
+				INFOPLIST_FILE = "Blinks/Blinks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C8441B1113EA634800A682EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Blinks.app/Blinks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blinks/Blinks-Prefix.pch";
+				INFOPLIST_FILE = "BlinksTests/BlinksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C8441B1213EA634800A682EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Blinks.app/Blinks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blinks/Blinks-Prefix.pch";
+				INFOPLIST_FILE = "BlinksTests/BlinksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8441AD313EA634700A682EA /* Build configuration list for PBXProject "Blinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8441B0B13EA634800A682EA /* Debug */,
+				C8441B0C13EA634800A682EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8441B0D13EA634800A682EA /* Build configuration list for PBXNativeTarget "Blinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8441B0E13EA634800A682EA /* Debug */,
+				C8441B0F13EA634800A682EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8441B1013EA634800A682EA /* Build configuration list for PBXNativeTarget "BlinksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8441B1113EA634800A682EA /* Debug */,
+				C8441B1213EA634800A682EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8441AD013EA634700A682EA /* Project object */;
+}
